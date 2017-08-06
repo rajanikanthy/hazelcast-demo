@@ -1,6 +1,6 @@
 package demo;
 
-public enum ItemType {
+public enum ItemOperationType {
 	ADD,
 	REMOVE,
 	UPDATE,

@@ -5,9 +5,9 @@ import java.io.Serializable;
 public class ItemEvent implements Serializable {
 	private Object key;
 	private Object value;
-	private ItemType itemType;
+	private ItemOperationType itemType;
 	
-	public ItemEvent(Object key, Object value, ItemType itemType) {
+	public ItemEvent(Object key, Object value, ItemOperationType itemType) {
 		this.key = key;
 		this.value = value;
 		this.itemType = itemType;
@@ -19,7 +19,7 @@ public class ItemEvent implements Serializable {
 	public Object getValue() {
 		return value;
 	}
-	public ItemType getItemType() {
+	public ItemOperationType getItemType() {
 		return itemType;
 	}
 	
